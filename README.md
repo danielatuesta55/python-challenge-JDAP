@@ -1,4 +1,4 @@
-# Python-challenge-JDAP
+## Python-challenge-JDAP
 
 ## Python Homework - Py Me Up, Charlie
 
@@ -25,6 +25,64 @@ On this repository the reader will encounter my solution to the homework assignm
 I hope you find my work to not only be complete but displaying all the knowledge learned throughout this portion of the Data Science Bootcamp at Northwestern University.
 
 ---
+
+## PyBank Excercise
+
+### Project's Aim
+
+For this portion of the homework I had to create a Python script to analyze the financial records of my made-up company. The data was provided in a file called budget_data.csv (attached to the PyBank folder under resources).
+
+#### Project's Challanges
+
+The Python script I created accomplished the following tasks:
+
+1. Calculate the total number of months included in the dataset
+   * Total month's =
+2. Calculate the net total amount of "Profit/Losses" over the entire peridod
+   * Total amount of "Profit/Losses" =
+3. Calculate the average of the changes in profits (date and amount) over the entire period
+   * Average of the changes in profits =
+4. Calculate the greatest increase in profits (date and amount) over the entire period
+   * Greatest increase in profits =
+5. Calculate the greatest decrease in losses (date and amount) over the entire period
+   * Greatest decrease in losses =
+
+An additional challanged faced was to make sure that the Python script printed the analysis to the terminal and exported a text file with the results.
+
+Here is the final analysis of the five points described above:
+
+#***Put Financial Analysis table here!***
+
+---
+
+## PyPoll Excercise
+
+### Project's Aim
+
+For this task I was asked to picture myself helping a small, rural town modernize its vote counting process. In order to do this the file election_data.cvs was provided (you can take a look at this file under the folder PyPoll and then access the Resources folder). 
+
+#### Project's Challanges
+
+The task at hand was to creat a Python script that analyzed the votes and calculates each of the following:
+
+1. The total number of votes cast
+   * Total number of votes =
+2. A complete list of candidates who received votes
+   * List of candidates that recevied votes =
+3. The percentage of votes each candidate won
+   * Percentage of votes per candidate =
+4. The total number of votes each candidate won
+   * Total number of votes per candidate =
+5. The winner of the election based on popular vote.
+   * Winner of election =
+
+An additional challanged faced was to make sure that the Python script printed the analysis to the terminal and exported a text file with the results.
+
+
+Here is the election results table:
+
+#***Put election Results table here!***
+
 
 ## Assignment instructions provided by Northwestern Data Science Bootcamp
 
