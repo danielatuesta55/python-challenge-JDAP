@@ -18,14 +18,15 @@ March, 2021
 
 On this repository the reader will encounter my solution to the homework assignment Python. The repository is organized in folders and a README.md (The file you are currently reading). Here is the list of the folders and its contents so you can navigate through them.
 
-1. !!!FOLDER #1🎉️
+1. Images: In this folder you will find the images for the instructions provided by the institution. You can skip this folder if you want.
+2. PyBank: In this folder you will find all the solutions for the PyBank excercise. Insided the folder you will find two other folders: 1. Resources: This fodler contains the CSV files I used. 2. analysis: This folder holds my text file that has the results from my analysis.
+3. Pypoll In this folder you will find all the solutions for the PyPoll excercise. Insided the folder you will find two other folders: 1. Resources: This fodler contains the CSV files I used. 2. analysis: This folder holds my text file that has the results from my analysis.
 
-I hope you find my work to not only be complete but displaying all the knowledge learned throughout this portion of the Data Science Bootcamp at Northwestern University. 
+I hope you find my work to not only be complete but displaying all the knowledge learned throughout this portion of the Data Science Bootcamp at Northwestern University.
 
 ---
 
 ## Assignment instructions provided by Northwestern Data Science Bootcamp
-
 
 Python Homework - Py Me Up, Charlie
 
