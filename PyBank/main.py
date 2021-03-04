@@ -4,7 +4,7 @@
 import os
 import csv
 
-    #using the open with, create the path
+#using the open with, create the path
 with open ('budget_data.cvs') as cvs_file:
 
     # Now that I have the file path I want to start cvs file handling
@@ -30,7 +30,7 @@ with open ('budget_data.cvs') as cvs_file:
 
     # now outside the for loop I am going to count how many items in the list with the len function
     monthCounter = len(months)
-     # I want to print monthcounter and check if the loop did what I wanted
+     # I want to print monthcounter and check if the loop did what I wanted, after I check I need to set it as a comment so it dosent interrput the final python script.
     print(monthCounter)
     
 
