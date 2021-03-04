@@ -4,12 +4,16 @@
 import os
 import csv
 
+#create the file path
+cvs_path = os.path.join('PyBank\Resources\budget_data.csv')
 #using the open with, create the path
-with open ('budget_data.cvs') as cvs_file:
+with open (cvs_path) as cvs_file:
 
     # Now that I have the file path I want to start cvs file handling
     # I am specifying the variable that holds the contents 
     cvs_reader = cvs.reader(cvs_file, delimiter = ',')
+    #print to see if path is running
+    print(cvs_reader)
     #I need to direct python to read the header row first
     header = next(cvsreader)
 
