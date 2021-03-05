@@ -5,7 +5,7 @@ import os
 import csv
 
 #Part 2: Creting file path as well as file out out for my txt file at the end
-csvpath = os.path.join('Resources', 'election_data.csv') #Asked classmate JD to take a look at why this portion of the code wasnt running, he debuged and found out I was spelling CVS not CSV.
+csvpath = os.path.join('Resources', 'election_data.csv')
 output_file = os.path.join("analysis", "election_analysis.txt")
 
 #Part 3: Variable assigment for list dict and counters
