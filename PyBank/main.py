@@ -1,4 +1,4 @@
-# This is the python scrip I created to analyze the data
+# This is the python scrip I created to analyze the PyBank data
 
 # Part 1: Import modules 'OS' and 'CVS' - Dependencies
 import os
