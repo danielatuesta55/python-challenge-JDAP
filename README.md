@@ -49,7 +49,6 @@ The Python script I created accomplished the following tasks:
 
 An additional challanged faced was to make sure that the Python script printed the analysis to the terminal and exported a text file with the results.
 
-
 ---
 
 ## PyPoll Excercise
@@ -77,7 +76,14 @@ An additional challanged faced was to make sure that the Python script printed t
 
 Here is the election results table:
 
-#***Put election Results table here!***
+
+---
+
+## References
+
+Fincher, J. (2019). Reading and Writing CSV Files in Python. Retrieved from Real Python: https://realpython.com/python-csv/#:~:text=Reading%20from%20a%20CSV%20file,which% 0does%20the%20heavy%20lifting.
+
+**Please note: I am new to .md files and I cant seem to indent the reference following the APA guidelines**
 
 ## Assignment instructions provided by Northwestern Data Science Bootcamp
 
