@@ -5,7 +5,7 @@ import os
 import csv
 
 #Part 2: Creting file path as well as file out out for my txt file at the end
-csvpath = os.path.join('Resources', 'budget_data.csv')
+csvpath = os.path.join('Resources', 'election_data.csv')
 output_file = os.path.join("analysis", "election_analysis.txt")
 
 #Part 3: Variable assigment for list dict and counters
@@ -38,10 +38,10 @@ with open(csvpath) as csvfile:
             CandidatePool.append(NameCandidate)
            
             #9.2 keep track of the votes per candidate
-            CaoundidateVotes[NameCandidate] = 0
+            CandidateVotes[NameCandidate] = 0
        
     #Part 10: Add votes
-     CandidateVotes[NameCandidate] = CandidateVotes[NameCandidate] + 1
+        CandidateVotes[NameCandidate] = CandidateVotes[NameCandidate] + 1
 
 #Part 11: I need to print the results from above in the terminal and wirte the txt file with the results
 with open(output_file, "w") as txt_file:
@@ -57,17 +57,16 @@ with open(output_file, "w") as txt_file:
     txt_file.write(ElectionResults)
 
     #Part 13: Create an iteration with a for loop to count total vote count per candidate
-    for Candidate in CandidateVotes:
-        votes = CandidateVotes.get(Candidate)
+    for NameCandidate in CandidateVotes:
+        votes = CandidateVotes.get(NameCandidate)
         PercentageOfVotes= float(votes) / float(TotalVotes) * 100
         
         #Part 14: Create an if statment to determine the winning number of votes and candidate
         if (votes > WinnerCount):
             WinnerCount = votes
-            Winner = Candidate
-        
+            Winner = NameCandidate
         #Part 15: retrive candidates voter count and percentage to print in terminal
-        OutputVoter = f"{candidate}: {VotePercentage:.3f}% ({votes})\n"
+        OutputVoter = f"{NameCandidate}: {PercentageOfVotes:.3f}% ({votes})\n"
         print(OutputVoter, end ="")
         
         #Part 16: Upload the information to txt file
@@ -82,7 +81,7 @@ with open(output_file, "w") as txt_file:
 
     #Part 18: Finish code by saving summary for winner in txt file
     txt_file.write(SummaryForWinner)
-    
+
 
 
 
