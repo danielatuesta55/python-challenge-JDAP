@@ -59,7 +59,7 @@ Here is the final analysis of the five points described above:
 
 ### Project's Aim
 
-For this task I was asked to picture myself helping a small, rural town modernize its vote counting process. In order to do this the file election_data.cvs was provided (you can take a look at this file under the folder PyPoll and then access the Resources folder). 
+For this task I was asked to picture myself helping a small, rural town modernize its vote counting process. In order to do this the file election_data.cvs was provided (you can take a look at this file under the folder PyPoll and then access the Resources folder).
 
 #### Project's Challanges
 
@@ -78,11 +78,9 @@ The task at hand was to creat a Python script that analyzed the votes and calcul
 
 An additional challanged faced was to make sure that the Python script printed the analysis to the terminal and exported a text file with the results.
 
-
 Here is the election results table:
 
 #***Put election Results table here!***
-
 
 ## Assignment instructions provided by Northwestern Data Science Bootcamp
 
@@ -109,8 +107,6 @@ Both of these challenges encompasses a real-world situation where your newfound 
 * Push the above changes to GitHub or GitLab.
 
 ### PyBank
-
-
 
 ![Revenue](Images/revenue-per-lead.png)
 
