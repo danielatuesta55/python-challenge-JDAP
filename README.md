@@ -37,21 +37,18 @@ For this portion of the homework I had to create a Python script to analyze the 
 The Python script I created accomplished the following tasks:
 
 1. Calculate the total number of months included in the dataset
-   * Total month's =
+   * Total month's = 86
 2. Calculate the net total amount of "Profit/Losses" over the entire peridod
-   * Total amount of "Profit/Losses" =
+   * Total amount of "Profit/Losses" = $38382578
 3. Calculate the average of the changes in profits (date and amount) over the entire period
-   * Average of the changes in profits =
+   * Average of the changes in profits =$-2315.12
 4. Calculate the greatest increase in profits (date and amount) over the entire period
-   * Greatest increase in profits =
+   * Greatest increase in profits = Feb-2012($1926159)
 5. Calculate the greatest decrease in losses (date and amount) over the entire period
-   * Greatest decrease in losses =
+   * Greatest decrease in losses = Sep-2013($-2196167)
 
 An additional challanged faced was to make sure that the Python script printed the analysis to the terminal and exported a text file with the results.
 
-Here is the final analysis of the five points described above:
-
-#***Put Financial Analysis table here!***
 
 ---
 
