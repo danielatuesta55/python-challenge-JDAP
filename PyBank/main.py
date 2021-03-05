@@ -68,7 +68,7 @@ with open(csvpath) as csvfile:
 
     #Part 11: I need to export the financial analysis to text file
     with open(output_file,"w") as txt_file:
-        txt_file.write(output_file)
+        txt_file.write(output)
 
 
 
