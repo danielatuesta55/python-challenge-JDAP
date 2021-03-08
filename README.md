@@ -18,9 +18,13 @@ March, 2021
 
 On this repository the reader will encounter my solution to the homework assignment Python. The repository is organized in folders and a README.md (The file you are currently reading). Here is the list of the folders and its contents so you can navigate through them.
 
-1. Images: In this folder you will find the images for the instructions provided by the institution. You can skip this folder if you want.
-2. PyBank: In this folder you will find all the solutions for the PyBank excercise. Insided the folder you will find two other folders: 1. Resources: This fodler contains the CSV files I used. 2. analysis: This folder holds my text file that has the results from my analysis.
-3. Pypoll In this folder you will find all the solutions for the PyPoll excercise. Insided the folder you will find two other folders: 1. Resources: This fodler contains the CSV files I used. 2. analysis: This folder holds my text file that has the results from my analysis.
+1. Images: In this folder you will find the images for the instructions provided by the institution. *You can skip this folder if you want*.
+2. PyBank: In this folder you will find all the solutions for the PyBank excercise. Insided the folder you will find two other folders:
+   * 1. ''Resources'': This fodler contains the CSV files I used.
+   * 2. ''analysis'': This folder holds my text file that has the results from my analysis.
+3. Pypoll In this folder you will find all the solutions for the PyPoll excercise. Insided the folder you will find two other folders:
+   * 1. "Resources": This fodler contains the CSV files I used.
+   * 2. "analysis"": This folder holds my text file that has the results from my analysis.
 
 I hope you find my work to not only be complete but displaying all the knowledge learned throughout this portion of the Data Science Bootcamp at Northwestern University.
 
@@ -62,19 +66,17 @@ For this task I was asked to picture myself helping a small, rural town moderniz
 The task at hand was to creat a Python script that analyzed the votes and calculates each of the following:
 
 1. The total number of votes cast
-   * Total number of votes =
+   * Total number of votes = 3521001
 2. A complete list of candidates who received votes
-   * List of candidates that recevied votes =
+   * List of candidates that recevied votes = Khan, Correy, Li, O'Tooley
 3. The percentage of votes each candidate won
-   * Percentage of votes per candidate =
+   * Percentage of votes per candidate =Khan (63%), Correy(20%), Li(14%), O'Tooley(3%)
 4. The total number of votes each candidate won
-   * Total number of votes per candidate =
+   * Total number of votes per candidate =Khan(2218231), Correy(704200), Li(492940), O'Tooley(105630)
 5. The winner of the election based on popular vote.
-   * Winner of election =
+   * Winner of election = Khan
 
 An additional challanged faced was to make sure that the Python script printed the analysis to the terminal and exported a text file with the results.
-
-Here is the election results table:
 
 
 ---

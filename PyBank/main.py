@@ -4,11 +4,11 @@
 import os
 import csv
 
-#Part 2: Creting file path as well as file out out for my txt file at the end
+#Part 2: Creating file path as well as file out out for my txt file at the end
 csvpath = os.path.join('Resources', 'budget_data.csv')  #Asked classmate JD to take a look at why this portion of the code wasnt running, he debuged and found out I was spelling CVS not CSV.
 output_file = os.path.join("analysis", "budget_analysis.txt")
 
-#Part 3: Creat parameters with variables such as lists and counters
+#Part 3: Create parameters with variables such as lists and counters
 TotalMonths = 0
 MonthOfChange= []
 NetChange = []
@@ -27,18 +27,18 @@ with open(csvpath) as csvfile:
     first_row = next(csvreader)
     TotalMonths = TotalMonths + 1
     TotalNet = TotalNet + int(first_row[1])
-    PreviouseNet = int(first_row[1])
+    PreviousNet = int(first_row[1])
 
     #Part 7: create my iteration with a for loop
-    for row in csvreader:
+    for row in csvreader: 
        # print(row) to check if the file is reading
        #7.1 Extract the total months
        TotalMonths =   TotalMonths + 1
        TotalNet = TotalNet + int(row[1])
 
        #7.2 Extract the net change of the sample
-       NetChangeValue = int(row[1]) - PreviouseNet
-       PreviouseNet = int(row[1])
+       NetChangeValue = int(row[1]) - PreviousNet
+       PreviousNet = int(row[1])
        NetChange = NetChange + [NetChangeValue]
        MonthOfChange = MonthOfChange + [row[0]]
 
